@@ -1,0 +1,54 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: whitesmoke;
+}
+
+#projetil1{
+    width: 80px;
+    height: 80px;
+    background: lightseagreen;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 50%;
+    animation: trajetoria1 0.001s infinite;
+}
+/*@keyframes trajetoria1 {
+    from {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+    }
+    to {
+        position: absolute;
+        bottom: 30%;
+        left: 60%;
+    }
+} 
+
+#projetil2{
+    width: 80px;
+    height: 80px;
+    background: black;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 50%;
+    animation: trajetoria2 0.001s infinite;
+}
+@keyframes trajetoria2 {
+    from {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+    }
+    to {
+        position: absolute;
+        bottom: 60%;
+        left: 60%;
+    }
+} */
